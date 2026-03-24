@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ff6a00">
     <title>{{title}}</title>
     <meta name="description" content="{{description}}">
     <meta name="keywords" content="fabrication work in Noida, fabrication work in Greater Noida, steel fabrication near me, metal fabrication service, welding work in Noida, gate fabrication in Noida, fabrication work near me, fabrication service in Noida sector 62, fabrication work Greater Noida, welding service near me">
@@ -23,7 +24,7 @@
     <!-- Header / Navbar -->
     <header>
         <div class="container navbar">
-            <a href="index.html" class="logo">Anu<span>fix</span></a>
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="Anufix Logo" style="height: 40px; width: auto;"></a>
             
             <button class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -62,7 +63,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-about">
-                    <a href="index.html" class="footer-logo">Anu<span>fix</span></a>
+                    <a href="index.html" class="footer-logo"><img src="img/logo.png" alt="Anufix Logo" style="height: 50px; width: auto;"></a>
                     <p>Anufix is a professional fabrication service provider offering all types of iron, steel and aluminium work with material and labour in Noida, Greater Noida, Ghaziabad and Delhi.</p>
                     <div style="margin-top: 20px;">
                         <p><i class="fas fa-phone-alt" style="color:var(--primary); margin-right:10px;"></i> 9560208785</p>
@@ -97,6 +98,55 @@
             </div>
         </div>
     </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-btns">
+        <a href="https://wa.me/919560208785" target="_blank" class="float-btn float-whatsapp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:9560208785" class="float-btn float-call">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+
+    <!-- Popup Quote Form -->
+    <div id="quotePopup" class="popup-overlay">
+        <div class="popup-content">
+            <button class="popup-close"><i class="fas fa-times"></i></button>
+            <h3 style="font-size: 1.8rem; margin-bottom: 25px; text-align: center;">Get a Free Quote</h3>
+            <form id="quoteFormPopup">
+                <div class="grid-2" style="gap: 20px;">
+                    <div class="form-group">
+                        <label for="namePopup">Name</label>
+                        <input type="text" id="namePopup" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phonePopup">Phone Number</label>
+                        <input type="tel" id="phonePopup" class="form-control" required>
+                    </div>
+                </div>
+                <div class="grid-2" style="gap: 20px;">
+                    <div class="form-group">
+                        <label for="servicePopup">Service Required</label>
+                        <select id="servicePopup" class="form-control" required>
+                            <option value="" disabled selected>Select a Service</option>
+                            <option value="Metal Fabrication">Metal Fabrication</option>
+                            <option value="Gate & Grill">Gate & Grill Work</option>
+                            <option value="Shed Fabrication">Shed Fabrication</option>
+                            <option value="Staircase & Railing">Staircase & Railing</option>
+                            <option value="Welding & Repair">Welding & Repair</option>
+                            <option value="Custom Fabrication">Custom Fabrication</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="locationPopup">Location</label>
+                        <input type="text" id="locationPopup" class="form-control" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Submit Request</button>
+            </form>
+        </div>
+    </div>
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>

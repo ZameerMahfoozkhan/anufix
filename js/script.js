@@ -104,4 +104,62 @@ document.addEventListener('DOMContentLoaded', () => {
             link.classList.add('active');
         }
     });
+    // Popup Logic
+    const popup = document.getElementById('quotePopup');
+    const closePopupBtn = document.querySelector('.popup-close');
+    
+    if (popup && closePopupBtn) {
+        // Show popup after 5 seconds if not seen before in this session
+        if (!sessionStorage.getItem('popupShown')) {
+            setTimeout(() => {
+                popup.classList.add('show');
+                sessionStorage.setItem('popupShown', 'true');
+            }, 5000);
+        }
+
+        closePopupBtn.addEventListener('click', () => {
+            popup.classList.remove('show');
+        });
+
+        // Close when clicking outside content
+        popup.addEventListener('click', (e) => {
+            if (e.target === popup) {
+                popup.classList.remove('show');
+            }
+        });
+    }
+
+    // Popup Form Submission
+    const quoteFormPopup = document.getElementById('quoteFormPopup');
+    if(quoteFormPopup) {
+        quoteFormPopup.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('namePopup').value;
+            const phone = document.getElementById('phonePopup').value;
+            const service = document.getElementById('servicePopup').value;
+            const location = document.getElementById('locationPopup').value;
+
+            const btn = quoteFormPopup.querySelector('button[type="submit"]');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Redirecting...';
+            btn.disabled = true;
+
+            const message = `*New Quote Request from Anufix (Popup)*%0A` +
+                            `--------------------------%0A` +
+                            `*Name:* ${name}%0A` +
+                            `*Phone:* ${phone}%0A` +
+                            `*Service:* ${service}%0A` +
+                            `*Location:* ${location}`;
+
+            const whatsappUrl = `https://wa.me/919560208785?text=${message}`;
+
+            setTimeout(() => {
+                window.location.href = whatsappUrl;
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+                popup.classList.remove('show');
+                quoteFormPopup.reset();
+            }, 800);
+        });
+    }
 });

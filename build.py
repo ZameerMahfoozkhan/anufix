@@ -204,7 +204,7 @@ def generate_home(page):
             <div class="grid-3">
                 <div class="service-card animate-on-scroll">
                     <div class="service-img">
-                        <img src="img/Metal Fabrication.png" alt="Metal Fabrication">
+                        <img loading="lazy" src="img/Metal Fabrication.png" alt="Metal Fabrication">
                     </div>
                     <div class="service-content">
                         <h3>Metal Fabrication</h3>
@@ -215,7 +215,7 @@ def generate_home(page):
                 
                 <div class="service-card animate-on-scroll">
                     <div class="service-img">
-                        <img src="img/Gate & Grill Fabrication.png" alt="Gate & Grill Fabrication">
+                        <img loading="lazy" src="img/Gate & Grill Fabrication.png" alt="Gate & Grill Fabrication">
                     </div>
                     <div class="service-content">
                         <h3>Gate & Grill Fabrication</h3>
@@ -226,7 +226,7 @@ def generate_home(page):
                 
                 <div class="service-card animate-on-scroll">
                     <div class="service-img">
-                        <img src="img/Industrial Shed Fabrication.png" alt="Industrial Shed">
+                        <img loading="lazy" src="img/Industrial Shed Fabrication.png" alt="Industrial Shed">
                     </div>
                     <div class="service-content">
                         <h3>Industrial Shed Fabrication</h3>
@@ -252,7 +252,7 @@ def generate_home(page):
                     <a href="about.html" class="btn" style="margin-top:20px;">Read More About Us</a>
                 </div>
                 <div class="service-img" style="height:100%;">
-                    <img src="img/Custom Fabrication Work.png" alt="Fabrication Works">
+                    <img loading="lazy" src="img/Custom Fabrication Work.png" alt="Fabrication Works">
                 </div>
             </div>
         </div>
@@ -274,7 +274,7 @@ def generate_services(page):
                 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="img/Metal Fabrication.png" alt="MS Fabrication">
+                        <img loading="lazy" src="img/Metal Fabrication.png" alt="MS Fabrication">
                     </div>
                     <div class="service-content">
                         <h3>MS Fabrication</h3>
@@ -285,7 +285,7 @@ def generate_services(page):
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="img/Custom Fabrication Work.png" alt="SS Fabrication">
+                        <img loading="lazy" src="img/Custom Fabrication Work.png" alt="SS Fabrication">
                     </div>
                     <div class="service-content">
                         <h3>SS Fabrication</h3>
@@ -296,7 +296,7 @@ def generate_services(page):
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="img/Gate & Grill Fabrication.png" alt="Aluminium Fabrication">
+                        <img loading="lazy" src="img/Gate & Grill Fabrication.png" alt="Aluminium Fabrication">
                     </div>
                     <div class="service-content">
                         <h3>Aluminium Fabrication</h3>
@@ -307,7 +307,7 @@ def generate_services(page):
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="img/Gate & Grill Fabrication.png" alt="Gate Fabrication">
+                        <img loading="lazy" src="img/Gate & Grill Fabrication.png" alt="Gate Fabrication">
                     </div>
                     <div class="service-content">
                         <h3>Gate Fabrication</h3>
@@ -318,7 +318,7 @@ def generate_services(page):
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="img/Gate & Grill Fabrication.png" alt="Grill Fabrication">
+                        <img loading="lazy" src="img/Gate & Grill Fabrication.png" alt="Grill Fabrication">
                     </div>
                     <div class="service-content">
                         <h3>Grill Fabrication</h3>
@@ -329,7 +329,7 @@ def generate_services(page):
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="img/Staircase & Railing Work.png" alt="Staircase Fabrication">
+                        <img loading="lazy" src="img/Staircase & Railing Work.png" alt="Staircase Fabrication">
                     </div>
                     <div class="service-content">
                         <h3>Staircase Fabrication</h3>
@@ -340,7 +340,7 @@ def generate_services(page):
                 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="img/Staircase & Railing Work.png" alt="Railing Work">
+                        <img loading="lazy" src="img/Staircase & Railing Work.png" alt="Railing Work">
                     </div>
                     <div class="service-content">
                         <h3>Railing Work</h3>
@@ -351,7 +351,7 @@ def generate_services(page):
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="img/Industrial Shed Fabrication.png" alt="Shed Fabrication">
+                        <img loading="lazy" src="img/Industrial Shed Fabrication.png" alt="Shed Fabrication">
                     </div>
                     <div class="service-content">
                         <h3>Industrial Shed Fabrication</h3>
@@ -362,7 +362,7 @@ def generate_services(page):
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="img/Welding & Repair Work.png" alt="Welding & Repair">
+                        <img loading="lazy" src="img/Welding & Repair Work.png" alt="Welding & Repair">
                     </div>
                     <div class="service-content">
                         <h3>Welding & Repair Work</h3>
@@ -389,7 +389,7 @@ def generate_about(page):
         <div class="container animate-on-scroll">
             <div class="contact-wrapper" style="align-items: center; background:transparent; box-shadow:none;">
                 <div class="service-img" style="height: 400px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1)">
-                    <img src="img/Metal Fabrication.png" alt="About Anufix">
+                    <img loading="lazy" src="img/Metal Fabrication.png" alt="About Anufix">
                 </div>
                 <div>
                     <h2>Who We Are</h2>
@@ -422,12 +422,12 @@ def generate_gallery(page):
     <section class="section">
         <div class="container">
             <div class="grid-3 animate-on-scroll">
-                <div class="service-card"><img src="img/Metal Fabrication.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
-                <div class="service-card"><img src="img/Gate & Grill Fabrication.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
-                <div class="service-card"><img src="img/Industrial Shed Fabrication.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
-                <div class="service-card"><img src="img/Staircase & Railing Work.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
-                <div class="service-card"><img src="img/Welding & Repair Work.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
-                <div class="service-card"><img src="img/Custom Fabrication Work.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
+                <div class="service-card"><img loading="lazy" src="img/Metal Fabrication.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
+                <div class="service-card"><img loading="lazy" src="img/Gate & Grill Fabrication.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
+                <div class="service-card"><img loading="lazy" src="img/Industrial Shed Fabrication.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
+                <div class="service-card"><img loading="lazy" src="img/Staircase & Railing Work.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
+                <div class="service-card"><img loading="lazy" src="img/Welding & Repair Work.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
+                <div class="service-card"><img loading="lazy" src="img/Custom Fabrication Work.png" style="width:100%;height:100%;object-fit:cover; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.1);"></div>
             </div>
             
             <div style="text-align:center; margin-top:50px;">
@@ -543,7 +543,7 @@ def generate_service_detail(page):
         <div class="container animate-on-scroll">
             <div class="contact-wrapper" style="align-items: center; background:transparent; box-shadow:none;">
                 <div class="service-img" style="height: 400px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1)">
-                    <img src="{img_src}" alt="{name}">
+                    <img loading="lazy" src="{img_src}" alt="{name}">
                 </div>
                 <div class="content-block">
                     <h2>About This Service</h2>
