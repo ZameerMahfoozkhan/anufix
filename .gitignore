@@ -21,4 +21,4 @@ brain/
 .idea/
 
 # Large files or binary data not needed for web
-# (Keeping .docx for now as they are source content)
+*.docx
