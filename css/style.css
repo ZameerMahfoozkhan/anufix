@@ -561,6 +561,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .section {
+    padding: 50px 0;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
   .menu-btn {
     display: block;
   }
@@ -581,14 +587,40 @@ footer {
   .nav-links li a {
     font-size: 1.2rem;
   }
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 120px 0 60px;
+  }
   .hero h1 {
     font-size: 2.2rem;
   }
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
   .hero-btns {
     flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    gap: 15px;
+  }
+  .hero-btns .btn {
+    width: 100%;
   }
   .footer-grid {
     grid-template-columns: 1fr;
+  }
+  .floating-btns {
+    bottom: 15px;
+    right: 15px;
+    gap: 10px;
+  }
+  .float-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
   }
 }
 
