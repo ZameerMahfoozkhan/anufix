@@ -121,28 +121,35 @@ pages = [
         "title": "Privacy Policy | Anufix",
         "description": "Privacy Policy for Anufix Fabrication Services.",
         "content_generator": "generate_legal",
-        "extra": {"name": "Privacy Policy", "text": "<h3>Introduction</h3><p>Welcome to Anufix.com. We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use and safeguard your data when you visit our website or contact us for services.</p><h3>Information We Collect</h3><p>We may collect the following information:</p><ul><li>Name</li><li>Phone Number</li><li>Location</li><li>Service Requirements</li></ul><p>This information is collected only when you contact us through call, WhatsApp or contact form.</p><h3>How We Use Your Information</h3><p>We use your information for the following purposes:</p><ul><li>To provide fabrication services</li><li>To contact you regarding your service request</li><li>To improve our services and customer experience</li></ul><h3>Data Protection</h3><p>We take appropriate measures to protect your personal information. Your data is kept secure and is not misused.</p><h3>Sharing of Information</h3><p>We do not sell, trade or share your personal information with any third party.</p><h3>Your Consent</h3><p>By using our website, you consent to our Privacy Policy.</p>"}
+        "extra": {"name": "Privacy Policy", "text": "<p>At ANUFIX, we respect your privacy and are committed to protecting your personal information.</p><h3>Information We Collect</h3><p>We may collect basic details such as your name, phone number, and address when you contact us or request a service.</p><h3>How We Use Information</h3><p>The information collected is used only to:</p><ul><li>Provide fabrication services</li><li>Contact you regarding your request</li><li>Improve our services</li></ul><h3>Information Sharing</h3><p>We do not sell, trade, or share your personal information with any third parties.</p><h3>Data Security</h3><p>We take appropriate measures to keep your information safe and secure.</p><h3>Cookies</h3><p>Our website may use cookies to improve user experience.</p><h3>Third-Party Services</h3><p>We may use tools like Google Ads or analytics to improve our services, but your personal data is not misused.</p><h3>Contact Us</h3><p>If you have any questions regarding this privacy policy, you can contact us:</p><p>ANUFIX<br>Sector 22, Noida, Uttar Pradesh<br>Phone: 9560208785</p><p>By using our website, you agree to this privacy policy.</p>"}
     },
     {
         "filename": "terms.html",
         "title": "Terms & Conditions | Anufix",
         "description": "Terms & Conditions for Anufix Fabrication Services.",
         "content_generator": "generate_legal",
-        "extra": {"name": "Terms & Conditions", "text": "<h3>Services</h3><p>Anufix provides fabrication services including metal fabrication, gate & grill work, shed fabrication, welding and repair services in Noida, Greater Noida and nearby areas. All services are provided based on customer requirements and project specifications.</p><h3>Pricing & Payment</h3><ul><li>Service charges depend on the type of work, material and project size</li><li>Inspection or visit charges may apply</li><li>Advance payment may be required before starting the work</li><li>Final payment must be completed after service delivery</li></ul><h3>Work Timeline</h3><ul><li>Project completion time depends on the type and size of work</li><li>Delays may occur due to weather, material availability or site conditions</li></ul><h3>Customer Responsibility</h3><ul><li>Customer must provide correct details and site access</li><li>Any changes in work after confirmation may affect cost and timeline</li></ul><h3>Cancellation Policy</h3><ul><li>Orders once confirmed may not be cancelled without prior notice</li><li>Any advance payment may be non-refundable depending on work progress</li></ul><h3>Liability</h3><p>We are not responsible for any damage caused due to pre-existing site conditions. We ensure proper work quality but do not provide warranty unless agreed.</p>"}
+        "extra": {"name": "Terms & Conditions", "text": "<p>Welcome to ANUFIX. By using our website and services, you agree to the following terms and conditions.</p><h3>Services</h3><p>ANUFIX provides metal fabrication services including gates, grills, railings, and custom fabrication work. All services are subject to availability and project requirements.</p><h3>Pricing</h3><p>All prices are based on material, design, and work scope. Final cost may vary after site inspection or discussion.</p><h3>Booking & Payment</h3><p>Advance payment may be required to confirm your order. Remaining payment must be completed after work completion.</p><h3>Work Timeline</h3><p>Project timelines are estimated and may vary depending on design complexity, material availability, and site conditions.</p><h3>Customer Responsibility</h3><p>Customers must provide accurate details and proper site access for smooth work execution.</p><h3>Cancellation</h3><p>Orders once confirmed may not be cancelled. Any cancellation request will be considered on a case-by-case basis.</p><h3>Liability</h3><p>ANUFIX is not responsible for any indirect or unforeseen damages during or after service completion.</p><h3>Changes to Terms</h3><p>We may update these terms at any time without prior notice.</p><h3>Contact Us</h3><p>ANUFIX<br>Sector 22, Noida, Uttar Pradesh<br>Phone: 9560208785</p><p>By using our services, you agree to these terms and conditions.</p>"}
     },
     {
         "filename": "disclaimer.html",
         "title": "Disclaimer | Anufix",
         "description": "Disclaimer for Anufix Fabrication Services.",
         "content_generator": "generate_legal",
-        "extra": {"name": "Disclaimer", "text": "<h3>General Information</h3><p>The information provided on Anufix.com is for general informational purposes only. While we strive to keep the information accurate and up to date, we make no guarantees of any kind regarding the completeness, reliability or accuracy of the information.</p><h3>Independent Service Provider</h3><p>Anufix is an independent fabrication service provider. We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with any brand, company or organization.</p><h3>Service Responsibility</h3><p>All services provided by Anufix are based on customer requirements and site conditions. We are not responsible for any issues arising due to incorrect information provided by the customer or pre-existing site conditions.</p><h3>No Professional Warranty</h3><p>We aim to provide quality fabrication services, but we do not offer any official warranty or guarantee unless explicitly agreed upon in writing.</p><h3>Limitation of Liability</h3><p>Under no circumstances shall Anufix be liable for any loss or damage arising from the use of our website or services.</p>"}
+        "extra": {"name": "Disclaimer", "text": "<p>The information provided on this website is for general information purposes only. ANUFIX makes every effort to ensure that the information is accurate and up to date, but we do not guarantee completeness or accuracy.</p><h3>Service Disclaimer</h3><p>All fabrication services (gates, grills, railings, and custom work) are subject to site conditions, material availability, and design requirements. Final results may vary based on project specifications.</p><h3>Pricing Disclaimer</h3><p>Prices mentioned on the website are indicative and may change after site inspection or discussion.</p><h3>Third-Party Disclaimer</h3><p>Our website may use third-party services such as Google Ads or analytics. We are not responsible for the content or policies of these external platforms.</p><h3>Liability</h3><p>ANUFIX shall not be held liable for any direct or indirect damages arising from the use of our website or services.</p><h3>Consent</h3><p>By using our website, you agree to this disclaimer.</p><h3>Contact Us</h3><p>ANUFIX<br>Sector 22, Noida, Uttar Pradesh<br>Phone: 9560208785</p>"}
     },
     {
         "filename": "refund-policy.html",
         "title": "Refund Policy | Anufix",
         "description": "Refund Policy for Anufix Fabrication Services.",
         "content_generator": "generate_legal",
-        "extra": {"name": "Refund Policy", "text": "<h3>Advance Payment</h3><ul><li>Advance payment may be required before starting any fabrication work</li><li>Advance amount is used for material purchase and initial work setup</li></ul><h3>Refund Eligibility</h3><ul><li>Refunds are only applicable if the work has not been started</li><li>If the customer cancels the service before work begins, partial refund may be considered after deducting any incurred costs</li></ul><h3>Non-Refundable Cases</h3><ul><li>Once the work has started, advance payment is non-refundable</li><li>No refund will be provided after completion of the work</li><li>Customized fabrication work is non-refundable</li></ul><h3>Service Issues</h3><p>If there is any issue with the service, customers can contact us for resolution. We will make reasonable efforts to fix or adjust the work if required.</p><h3>Payment Disputes</h3><p>Any disputes regarding payment must be reported within 24 hours of service completion.</p>"}
+        "extra": {"name": "Refund Policy", "text": "<p>At ANUFIX, we strive to provide quality metal fabrication services. Please read our refund policy carefully.</p><h3>Advance Payment</h3><p>Advance payment is required to confirm the order and start the fabrication work. This amount is generally non-refundable as it is used for material purchase and initial work.</p><h3>Refund Eligibility</h3><p>Refunds may be considered only in the following cases:</p><ul><li>If the service is not started by our team</li><li>If we are unable to complete the project due to internal reasons</li></ul><h3>No Refund Cases</h3><p>Refunds will not be provided in the following situations:</p><ul><li>Change of mind after order confirmation</li><li>Delay due to customer-side issues</li><li>Work already started or completed</li></ul><h3>Partial Refund</h3><p>In some cases, a partial refund may be provided depending on the work completed and material used.</p><h3>Cancellation</h3><p>Any cancellation request will be reviewed on a case-by-case basis.</p><h3>Contact Us</h3><p>ANUFIX<br>Sector 22, Noida, Uttar Pradesh<br>Phone: 9560208785</p><p>By booking our services, you agree to this refund policy.</p>"}
+    },
+    {
+        "filename": "business-verification.html",
+        "title": "Business Verification | Anufix",
+        "description": "Business Verification details for Anufix.",
+        "content_generator": "generate_legal",
+        "extra": {"name": "Business Verification", "text": "<p>ANUFIX is a Government of India registered MSME (Udyam Registration No: UDYAM-UP-28-0211436).</p><p>We are based in Noida, Uttar Pradesh, and provide professional metal fabrication services including gates, grills, railings, and custom fabrication work.</p><h3>Business Details:</h3><ul><li>Name: ANUFIX</li><li>Type: Micro Enterprise (MSME)</li><li>Activity: Metal Fabrication (NIC 25999)</li><li>Address: G-227B, 1st Floor, Sector 22, Noida – 201301</li><li>Phone: 9560208785</li></ul><p>This registration confirms that our business is officially recognized and operates as a verified fabrication service provider.</p>"}
     }
 ]
 
@@ -151,11 +158,11 @@ def generate_home(page):
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Best <span>Fabrication Work</span> in Noida & Greater Noida</h1>
-            <p>Iron, Steel & Aluminium Fabrication Services with Material & Labour<br>Fast, Reliable & Affordable</p>
+            <h1>Custom <span>Metal Fabrication Services</span> in Noida</h1>
+            <p>MSME Registered (UDYAM-UP-28-0211436) | Expert Gate, Grill & Structural Fabrication<br>We provide high-quality iron, steel, and custom fabrication work for residential and commercial projects.</p>
             <div class="hero-btns animate-on-scroll">
                 <a href="tel:9560208785" class="btn"><i class="fas fa-phone-alt"></i> Call Now: 9560208785</a>
-                <a href="services.html" class="btn btn-outline">Explore Services</a>
+                <a href="services.html" class="btn btn-outline">Book Fabrication Service</a>
             </div>
         </div>
     </section>
@@ -163,21 +170,25 @@ def generate_home(page):
     <!-- Why Choose Us -->
     <section class="section">
         <div class="container animate-on-scroll">
-            <h2 class="section-title">Why Choose Anufix</h2>
+            <h2 class="section-title">WHY CHOOSE US</h2>
             <p class="section-subtitle">We deliver high-quality, strong and long-lasting fabrication work.</p>
             
             <div class="feature-list">
                 <div class="feature-item">
-                    <i class="fas fa-hammer feature-icon"></i>
-                    <h4>Experienced Fabrication Team</h4>
+                    <i class="fas fa-check-circle feature-icon"></i>
+                    <h4>MSME Registered Business (Government Verified)</h4>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-users feature-icon"></i>
+                    <h4>Skilled Fabricators</h4>
                 </div>
                 <div class="feature-item">
                     <i class="fas fa-shield-alt feature-icon"></i>
-                    <h4>High Quality Material</h4>
+                    <h4>Strong & Durable Materials</h4>
                 </div>
                 <div class="feature-item">
-                    <i class="fas fa-weight-hanging feature-icon"></i>
-                    <h4>Strong & Durable Work</h4>
+                    <i class="fas fa-pen-nib feature-icon"></i>
+                    <h4>Custom Design Available</h4>
                 </div>
                 <div class="feature-item">
                     <i class="fas fa-tags feature-icon"></i>
@@ -185,11 +196,7 @@ def generate_home(page):
                 </div>
                 <div class="feature-item">
                     <i class="fas fa-clock feature-icon"></i>
-                    <h4>On-Time Completion</h4>
-                </div>
-                <div class="feature-item">
-                    <i class="fas fa-map-marker-alt feature-icon"></i>
-                    <h4>Service in Noida & NCR</h4>
+                    <h4>On-Time Project Delivery</h4>
                 </div>
             </div>
         </div>
@@ -392,17 +399,19 @@ def generate_about(page):
                     <img loading="lazy" src="img/Metal Fabrication.png" alt="About Anufix">
                 </div>
                 <div>
-                    <h2>Who We Are</h2>
-                    <p>Anufix is a trusted fabrication service provider in Noida & Greater Noida. We specialize in all types of iron, steel and aluminium fabrication work with material and labour.</p>
-                    <p>We are committed to delivering high-quality work, strong structures and long-lasting solutions for residential, commercial and industrial projects.</p>
+                    <h2>ABOUT US:</h2>
+                    <p>ANUFIX is a Government of India registered MSME (Udyam Registration No: UDYAM-UP-28-0211436), based in Noida, Uttar Pradesh.</p>
+                    <p>We specialize in metal fabrication services including gates, grills, railings, and custom structural work. Our focus is on delivering strong, durable, and precision-built fabrication solutions for homes, shops, and industrial requirements.</p>
+                    <p>With skilled fabricators and quality materials, we ensure long-lasting and cost-effective fabrication work tailored to client needs.</p>
                     
-                    <h3 style="margin-top:30px; font-size:1.4rem;">Our Core Focus</h3>
+                    <h3 style="margin-top:30px; font-size:1.4rem;">Business Details:</h3>
                     <ul style="list-style:disc; margin-left:20px; color:var(--text-light); margin-bottom: 20px;">
-                        <li>Customer Satisfaction</li>
-                        <li>Timely Work Completion</li>
-                        <li>High-Quality Materials</li>
-                        <li>Affordable Pricing</li>
+                        <li>Enterprise Type: Micro (MSME)</li>
+                        <li>Industry: Metal Fabrication (NIC 25999)</li>
+                        <li>Location: Sector 22, Noida, Uttar Pradesh</li>
+                        <li>Established: 2025</li>
                     </ul>
+                    <p>We are committed to quality workmanship, timely delivery, and customer satisfaction.</p>
                     <a href="contact.html" class="btn">Get a Quote Today</a>
                 </div>
             </div>
@@ -466,7 +475,7 @@ def generate_contact(page):
                         <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
                         <div class="info-text">
                             <h4>WhatsApp</h4>
-                            <p>Available for instant support</p>
+                            <p>9560208785</p>
                         </div>
                     </div>
                     
@@ -474,7 +483,7 @@ def generate_contact(page):
                         <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
                         <div class="info-text">
                             <h4>Service Location</h4>
-                            <p>Noida, Greater Noida, Noida Extension & Nearby Areas</p>
+                            <p>Sector 22, Noida. Serving Noida, Greater Noida, Ghaziabad & nearby areas</p>
                         </div>
                     </div>
                     
