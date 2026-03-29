@@ -149,7 +149,7 @@ pages = [
         "title": "Business Verification | Anufix",
         "description": "Business Verification details for Anufix.",
         "content_generator": "generate_legal",
-        "extra": {"name": "Business Verification", "text": "<p>ANUFIX is a Government of India registered MSME (Udyam Registration No: UDYAM-UP-28-0211436).</p><p>We are based in Noida, Uttar Pradesh, and provide professional metal fabrication services including gates, grills, railings, and custom fabrication work.</p><h3>Business Details:</h3><ul><li>Name: ANUFIX</li><li>Type: Micro Enterprise (MSME)</li><li>Activity: Metal Fabrication (NIC 25999)</li><li>Address: G-227B, 1st Floor, Sector 22, Noida – 201301</li><li>Phone: 9560208785</li></ul><p>This registration confirms that our business is officially recognized and operates as a verified fabrication service provider.</p>"}
+        "extra": {"name": "Business Verification", "text": "<p>ANUFIX is a Government of India registered MSME (Udyam Registration No: UDYAM-UP-28-0211436).</p><p>We are based in Noida, Uttar Pradesh, and provide professional metal fabrication services including gates, grills, railings, and custom fabrication work.</p><h3>Business Details:</h3><ul><li>Name: ANUFIX</li><li>Proprietor: Prachi (as per PAN records)</li><li>Type: Micro Enterprise (MSME)</li><li>Activity: Metal Fabrication (NIC 25999)</li><li>Address: G-227B, 1st Floor, Sector 22, Noida – 201301</li><li>Phone: 9560208785</li></ul><p>This registration confirms that our business is officially recognized and operates as a verified fabrication service provider.</p>"}
     }
 ]
 
@@ -406,6 +406,7 @@ def generate_about(page):
                     
                     <h3 style="margin-top:30px; font-size:1.4rem;">Business Details:</h3>
                     <ul style="list-style:disc; margin-left:20px; color:var(--text-light); margin-bottom: 20px;">
+                        <li>Proprietor: Prachi</li>
                         <li>Enterprise Type: Micro (MSME)</li>
                         <li>Industry: Metal Fabrication (NIC 25999)</li>
                         <li>Location: Sector 22, Noida, Uttar Pradesh</li>
