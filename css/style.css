@@ -14,13 +14,19 @@
   --font-family: 'Inter', system-ui, -apple-system, sans-serif;
   
   /* Transitions */
-  --transition: all 0.3s ease;
+  --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -95,19 +101,21 @@ ul {
 
 /* Header & Navbar */
 header {
-  background-color: var(--secondary-accent);
+  background-color: rgba(30, 41, 59, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 60px;
 }
 
 .logo {
@@ -184,8 +192,8 @@ header {
 
 .btn:hover {
   background-color: var(--primary-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 106, 0, 0.4);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(255, 106, 0, 0.4);
   color: var(--white);
 }
 
@@ -210,7 +218,7 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../img/Industrial Shed Fabrication.png') center/cover no-repeat;
   color: var(--white);
   margin-top: 0;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .hero-content {
@@ -268,8 +276,8 @@ header {
 }
 
 .service-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
 }
 
 .service-img {
@@ -285,7 +293,7 @@ header {
 }
 
 .service-card:hover .service-img img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .service-content {
@@ -349,7 +357,7 @@ header {
 /* Inner Pages Header */
 .page-header {
   background: var(--dark);
-  padding: 120px 0 60px;
+  padding: 100px 0 50px;
   text-align: center;
   color: var(--white);
 }
@@ -470,7 +478,7 @@ textarea.form-control {
 /* CTA Section */
 .cta-section {
   background: linear-gradient(rgba(30, 41, 59, 0.9), rgba(30, 41, 59, 0.9)), url('../img/Welding & Repair Work.png') center/cover fixed;
-  padding: 80px 0;
+  padding: 60px 0;
   text-align: center;
   color: var(--white);
 }
@@ -562,21 +570,23 @@ footer {
 
 @media (max-width: 768px) {
   .section {
-    padding: 50px 0;
+    padding: 40px 0;
   }
   .section-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .menu-btn {
     display: block;
   }
   .nav-links {
     position: fixed;
-    top: 80px;
+    top: 60px;
     left: -100%;
     width: 100%;
-    height: calc(100vh - 80px);
-    background: var(--secondary-accent);
+    height: calc(100vh - 60px);
+    background: rgba(30, 41, 59, 0.98);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     flex-direction: column;
     justify-content: center;
     transition: var(--transition);
@@ -590,10 +600,10 @@ footer {
   .hero {
     height: auto;
     min-height: 100vh;
-    padding: 120px 0 60px;
+    padding: 100px 0 40px;
   }
   .hero h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .hero p {
     font-size: 1rem;
@@ -608,6 +618,12 @@ footer {
   }
   .hero-btns .btn {
     width: 100%;
+  }
+  .content-block {
+    padding: 25px;
+  }
+  .contact-info, .contact-form {
+    padding: 30px;
   }
   .footer-grid {
     grid-template-columns: 1fr;
@@ -667,8 +683,9 @@ footer {
 }
 
 .float-btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   color: white;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .float-whatsapp {
