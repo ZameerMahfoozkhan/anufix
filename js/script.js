@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             `*Service:* ${service}%0A` +
                             `*Location:* ${location}`;
 
-            const whatsappUrl = `https://wa.me/919560208785?text=${message}`;
+            const whatsappUrl = `https://wa.me/919120992012?text=${message}`;
 
             // Redirect to WhatsApp
             setTimeout(() => {
